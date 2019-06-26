@@ -5,10 +5,10 @@ const path=require('path');
 const postRoutes=require('./routes/posts');
 const userRoutes=require('./routes/user');
 
-mongoose.connect("mongodb+srv://honey1998:sG3aoaakfeYQi6xW@cluster0-8gluj.mongodb.net/test"
+mongoose.connect("mongodb+srv://username:password@cluster0-8gluj.mongodb.net/test"
   ).then(()=>
   {
-    console.log("connect to database");//sG3aoaakfeYQi6xW
+    console.log("connect to database");
   }).catch((err)=>
   {
     console.log(err);
